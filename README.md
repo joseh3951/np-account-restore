@@ -1,6 +1,6 @@
 # np-account-restore
 
-Restore your PSN account configuration on a jailbroken PS4/PS5. This payload restores authentic `config.dat` and `auth.dat` from an activated console, writing the account configuration to the system registry.
+Restore your PSN account configuration on a jailbroken PS4/PS5. This payload restores authentic `config.dat` and `auth.dat` from a console, writing the account configuration to the system registry.
 
 > [!IMPORTANT]
 > This could corrupt your user! Do not use if you have data at risk of being lost. Corrupting your user could result in a soft brick and will need to be factory restored in safe mode.
