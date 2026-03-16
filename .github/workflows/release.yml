@@ -18,6 +18,9 @@ jobs:
           unzip -q ps4-payload-sdk.zip -d /opt
           unzip -q ps5-payload-sdk.zip -d /opt
 
+      - name: Create bin directory
+        run: mkdir -p bin
+
       - name: Build PS4 ELF
         run: make build-ps4
         env:
